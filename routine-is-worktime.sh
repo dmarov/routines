@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 # script returns error if today is weekend
-# use like: ./is-worktime && mattermost-desktop
+# use like: ./routine-is-worktime && mattermost-desktop
 
 if [[ $(date +%u) -gt 5 ]];
 then
